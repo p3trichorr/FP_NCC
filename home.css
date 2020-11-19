@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0D698B;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+}
+
+.head, li a {
+    list-style: none;
+    text-decoration: none;
+    color: #050533;
+    font-family: 'Fredoka One';
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-left: 20px; 
+    /* background-color: red;  */
+}
+
+.regions {
+    position: absolute;
+    display: none;
+    background: #ff3d00;
+}
+
+.regions li:hover {
+    display: block;
+}
+
+#poke {
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#home, #ref {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#ref {
+    margin-right: -80px;
+}
+
+.head li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #ff3d00;
+}
+
+.active {
+    color: #ff3d00;
+}
+
+#regions {
+    position: absolute;
+    display: none;
+}
+
+#regions.active {
+    display: flex;
+    background-color: #1895a3;
+    margin-top: 110px;
+    border-radius: 15px;
+}
+
+#regions.active li {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#kanto_map {
+    max-width: 40%;
+    height: auto;    
+}
+
+#arrow {
+    width: 5%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    cursor: default;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 20px;
+    
+}
+body {
+    background-color: white;
+}
+
+#sec_1 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.title {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Fredoka One';
+    font-size: 30px;
+    color: #ff3d00;
+}
+
+#sec_2 {
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #1aa6b7;
+    height: 65px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pokeball orange #ff3d00 */

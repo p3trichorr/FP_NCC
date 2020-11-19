@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0D698B;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 65px;
+}
+
+body {
+    background-color: #0D698B;
+}
+
+.list, a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Fredoka One';
+    font-size: 30px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#home, #ref {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#ref {
+    margin-right: -63px;
+}
+
+#poke {
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.list a:hover {
+    transition: all 0.3s ease 0s;
+    color: #ff3d00;
+}
+
+.active {
+    color: #ff3d00;
+}
+
+.link {
+    margin: auto;
+    margin-top: 80px;
+    text-align: left;
+    list-style: none;
+    height: calc(100vh - 210px);
+    width: 230px;    
+}
+
+.link li a{
+    display: list-item;
+    text-decoration: none;
+    font-family: 'Fredoka One';
+    font-size: 30px;
+    text-transform: lowercase;
+    color:white;
+    padding: 10px;
+}
+
+.link li a:hover{
+    transition: all 0.3s ease 0s;
+    color: #ff3d00;
+}
+
+footer {
+    background-color: #050533;
+    height: 65px;
+    margin-top: auto;
+}
+
+.logo {
+    cursor: pointer;
+    width: 10%;
+    height: auto;
+    /* background-color: red; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

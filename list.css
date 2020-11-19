@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 65px;
+    background-color: #0D698B;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.list, a {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Fredoka One';
+    text-transform: uppercase;
+    color: #050533;
+    font-size: 30px;
+}
+
+#home, #ref {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+#ref {
+    margin-right: -80px;
+}
+
+#poke {
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #ff3d00;
+}
+
+.active {
+    color: #ff3d00;
+}
+
+.name {
+    cursor: default;
+    font-family: 'Fredoka One';
+    color: #ff3d00;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.table {
+    cursor: default;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+td {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    padding: 8px;
+    border-bottom: 1pt solid #f4f4f2;
+}
+
+.left {
+    text-align: right;
+    color: #495464;
+}
+
+#bulbasaur, #charmander, #squirtle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bulbaImg, #charmImg, #squirtleImg {
+    max-width: 20%;
+    height: auto;
+}
+
+#region_1, #region_2 {
+    display: inline;
+}
+
+#region_1.active, #region_2.active {
+    display: inline;
+}
+
+.desc {
+    cursor: default;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    margin: 20px 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: bold;
+}
+
+.even {
+    background-color: #d9ecf2;
+    padding: 5px;
+}
+
+footer {
+    background-color: #1aa6b7;
+    height: 65px;
+    margin-top: auto;
+}
+
+.logo {
+    cursor: pointer;
+    width: 10%;
+    height: auto;
+    /* background-color: red; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
