@@ -25,20 +25,14 @@ function isInactive() {
 }
 
 
+// const firstRegion = document.getElementsById("kanto");
+// firstRegion.addEventListener("click", function() {
+//     window.open(document.location.href("./list.html")),
+//     document.getElementsById("region_1").classList.toggle("active")
+// });
 
-
-
-
-
-// 2 fungsi yang belom kelar
-const firstRegion = document.getElementsById("kanto");
-firstRegion.addEventListener("click", function() {
-    window.open(document.location.href("./list.html")),
-    document.getElementsById("region_1").classList.toggle("active")
-});
-
-const secondRegion = document.getElementsById("johto");
-secondRegion.addEventListener("click", function() {
-    window.open(document.location.href("./list.html")),
-    document.getElementsById("region_2").classList.toggle("active")
-});
+// const secondRegion = document.getElementsById("johto");
+// secondRegion.addEventListener("click", function() {
+//     window.open(document.location.href("./list.html")),
+//     document.getElementsById("region_2").classList.toggle("active")
+// });
