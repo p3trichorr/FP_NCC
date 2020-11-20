@@ -3,7 +3,6 @@ const toTop = document.querySelector(".logo");
 toTop.addEventListener("click", function() {
     window.scrollTo({
         top: 0,
-        behavior: "smooth"
     })
 });
 
