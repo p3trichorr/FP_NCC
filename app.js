@@ -7,10 +7,14 @@ toTop.addEventListener("click", function() {
     })
 });
 
-const dropDown = document.getElementById("lis");
-
+const dropDown = document.getElementById("list");
 dropDown.addEventListener("mouseover", isActive);
-dropDown.addEventListener("mouseout", isInactive);
+// dropDown.addEventListener("mouseout", isInactive);
+
+
+const regionChooser = document.getElementsById("region");
+regionChooser.addEventListener("mouseover", isActive);
+regionChooser.addEventListener("mouseout", isInactive);
 
 function isActive() {
     document.getElementById("regions").classList.toggle("active");
@@ -19,6 +23,12 @@ function isActive() {
 function isInactive() {
     document.getElementById("regions").removeEventListener(dropDown);
 }
+
+
+
+
+
+
 
 // 2 fungsi yang belom kelar
 const firstRegion = document.getElementsById("kanto");

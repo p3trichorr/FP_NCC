@@ -7,49 +7,99 @@
     box-sizing: border-box;
 }
 
+/* Header Page */
 header {
     background-color: #0D698B;
-    display: flex;
-    justify-content: left;
-    align-items: left;
     height: 100vh;
 }
 
+nav, li a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+#poke {
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#list, #ref {
+    align-items: center;
+    margin: 40px;
+    margin-left: 20px;
+    font-family: 'Fredoka One';
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+
+#list a, #ref a {
+    color: #F2F1E8;
+    /* font-size: 30px; */
+    font-size: 2.5vw;
+}
+
+#list a:hover, #ref a:hover {
+    transition: all 0.3s ease 0s;
+    color: #E34234;
+}
+
+/* Pop-up */
+#regions {
+    position: absolute;
+    display: none;
+}
+
+#regions.active {
+    display: flex;
+    background-color: #1895a3;
+    margin-left: -20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#regions.active li {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Main Page */
 #semi_head {
     display: flex;
-    justify-content: center;
-    margin-top: 20vh;
+    justify-content: space-around;
+    align-items: center;
     text-transform: none;
-}
-
-#intro {
-    color: #F2F1E8;
-    margin: 0px;
-    padding: 0px;
-    font-size: 50px;
-    font-family: 'Ubuntu';
-    font-style: italic;
-}
-
-#by {
-    color: #050533;
+    margin-top: 10px;
 }
 
 #trio {
-    margin-left: -200px;
-    width: 415.33px;
-    height: 483.75px;
+    margin-top: -20px;
+    margin-left: 50px;
+    margin-right: 40px;
+    width: 33%;
 }
 
-.head, li a {
-    list-style: none;
-    text-decoration: none;
+#table {
+    color: #F2F1E8;
+    margin: 0px;
+    padding: 0px;
+    /* font-size: 50px; */
+    font-size: 3vw;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    margin-right: 50px
+}
+
+#by {
+    /* font-size: 20px; */
+    font-size: 2vw;
+    font-style: normal;
     color: #050533;
-    font-family: 'Fredoka One';
-    text-transform: uppercase;
-    font-size: 30px;
-    padding-left: 20px; 
-    /* background-color: red;  */
 }
 
 .regions {
@@ -62,56 +112,17 @@ header {
     display: block;
 }
 
-#poke {
-    width: 90px;
-    height: 90px;
-    margin-top: 15px;
-    border-radius: 10px;
-}
-
-#home, #ref {
-    padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#ref {
-    margin-right: -80px;
-}
-
-.head li a:hover {
-    transition: all 0.3s ease 0s;
-    color: #E34234;
-}
-
-.active {
-    color: #E34234;
-}
-
-#regions {
-    position: absolute;
-    display: none;
-}
-
-#regions.active {
-    display: flex;
-    background-color: #1895a3;
-    margin-top: 110px;
-    border-radius: 15px;
-}
-
-#regions.active li {
-    list-style: none;
-    margin-left: 20px;
-    margin-right: 20px;
+/* Body */
+body {
+    background-color: white;
 }
 
 #arrow {
+    display: block;
     width: 5%;
     height: auto;
-    /* margin-left: auto;
-    margin-right: auto; */
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
 }
 
@@ -128,9 +139,6 @@ p {
     margin-left: 40px;
     margin-right: 20px;
     
-}
-body {
-    background-color: white;
 }
 
 #sec_1 {
@@ -152,8 +160,9 @@ body {
     margin-bottom: 30px;
 }
 
+/* Footer */
 footer {
-    background-color: #1aa6b7;
+    background-color:#0D698B;
     height: 65px;
 }
 
