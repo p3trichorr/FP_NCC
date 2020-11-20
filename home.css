@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 * {
     margin: 0;
@@ -13,6 +13,32 @@ header {
     justify-content: left;
     align-items: left;
     height: 100vh;
+}
+
+#semi_head {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    text-transform: none;
+}
+
+#intro {
+    color: #F2F1E8;
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    font-family: 'Ubuntu';
+    font-style: italic;
+}
+
+#by {
+    color: #050533;
+}
+
+#trio {
+    margin-left: -200px;
+    width: 415.33px;
+    height: 483.75px;
 }
 
 .head, li a {
@@ -29,7 +55,7 @@ header {
 .regions {
     position: absolute;
     display: none;
-    background: #ff3d00;
+    background: #E34234;
 }
 
 .regions li:hover {
@@ -55,11 +81,11 @@ header {
 
 .head li a:hover {
     transition: all 0.3s ease 0s;
-    color: #ff3d00;
+    color: #E34234;
 }
 
 .active {
-    color: #ff3d00;
+    color: #E34234;
 }
 
 #regions {
@@ -80,18 +106,18 @@ header {
     margin-right: 20px;
 }
 
-#kanto_map {
-    max-width: 40%;
-    height: auto;    
-}
-
 #arrow {
     width: 5%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     justify-content: center;
     align-items: center;
+}
+
+#kanto_map {
+    max-width: 40%;
+    height: auto;    
 }
 
 p {
@@ -115,10 +141,10 @@ body {
 
 .title {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
     font-family: 'Fredoka One';
     font-size: 30px;
-    color: #ff3d00;
+    color: #E34234;
 }
 
 #sec_2 {
