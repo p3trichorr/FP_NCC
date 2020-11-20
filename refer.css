@@ -23,7 +23,7 @@ body {
     width: 90px;
     height: 90px;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 20px;
     border-radius: 50%;
 }
@@ -52,20 +52,33 @@ body {
     color: #E34234;
 }
 
+.mid {
+    display: flex;
+
+}
+
 .link {
     margin: auto;
-    margin-top: 25vh;
+    margin-top: 17vh;
     text-align: left;
     list-style: none;
     height: calc(100vh - 210px);
     width: 230px;    
 }
 
+#dex {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: -480px;
+    width: 447.08px;
+    height: 419.71px
+}
+
 .link li a{
     display: list-item;
     text-decoration: none;
     font-family: 'Fredoka One';
-    font-size: 30px;
+    font-size: 50px;
     text-transform: lowercase;
     color:white;
     padding: 10px;
