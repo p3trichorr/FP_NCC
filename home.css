@@ -96,8 +96,7 @@ nav, li a {
 }
 
 #by {
-    /* font-size: 20px; */
-    font-size: 2vw;
+    font-size: 1.25vw;
     font-style: normal;
     color: #050533;
 }
@@ -118,7 +117,7 @@ body {
 }
 
 #arrow {
-    margin-top: 20px;
+    margin-top: 15px;
     display: block;
     width: 5%;
     height: auto;
